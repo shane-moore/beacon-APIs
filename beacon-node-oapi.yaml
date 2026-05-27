@@ -455,6 +455,8 @@ components:
       $ref: "./types/gloas/block_contents.yaml#/Gloas/BlockContents"
     Gloas.ExecutionPayload:
       $ref: "./types/gloas/execution_payload.yaml#/Gloas/ExecutionPayload"
+    Gloas.ExecutionPayloadHeader:
+      $ref: "./types/gloas/execution_payload.yaml#/Gloas/ExecutionPayloadHeader"
     Gloas.ExecutionPayloadBid:
       $ref: "./types/gloas/execution_payload_bid.yaml#/Gloas/ExecutionPayloadBid"
     Gloas.SignedExecutionPayloadBid:
@@ -465,6 +467,10 @@ components:
       $ref: "./types/gloas/execution_payload_envelope.yaml#/Gloas/SignedExecutionPayloadEnvelope"
     Gloas.SignedExecutionPayloadEnvelopeContents:
       $ref: "./types/gloas/execution_payload_envelope.yaml#/Gloas/SignedExecutionPayloadEnvelopeContents"
+    Gloas.BlindedExecutionPayloadEnvelope:
+      $ref: "./types/gloas/execution_payload_envelope.yaml#/Gloas/BlindedExecutionPayloadEnvelope"
+    Gloas.SignedBlindedExecutionPayloadEnvelope:
+      $ref: "./types/gloas/execution_payload_envelope.yaml#/Gloas/SignedBlindedExecutionPayloadEnvelope"
     Gloas.PayloadAttestationData:
       $ref: "./types/gloas/payload_attestation.yaml#/Gloas/PayloadAttestationData"
     Gloas.PayloadAttestation:
